@@ -75,7 +75,7 @@ release-type: ${releaseType}
   </target>
 
 	<target name="clean"  depends="zip" description="clean up" >
-		<delete dir="${temp}"/>
+		<!-- <delete dir="${temp}"/> -->
 	</target>
 
 </project>
